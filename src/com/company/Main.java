@@ -6,12 +6,14 @@ public class Main {
         Hero hero = new Hero(600, 40, "Magic");
 
 
-        System.out.println("Hero" + " " + hero.getHealth() + " " + hero.getDamage() + " " + hero.getSuperpower());
+        System.out.println("Hero" + " Health:" + hero.getHealth() + ";" + " Damage:"
+                + hero.getDamage()+ ";" + " SuperPower:" + hero.getSuperpower() + ";");
 
         Hero hero1 = new Hero(600, 40);
-        System.out.println("Hero"+ " " + hero.getHealth() + " " + hero.getDamage());
+        System.out.println("Hero"+ " Health:" + hero.getHealth() + ";" + " Damage:" + hero.getDamage());
 
         Boss boss = new Boss(1000,60,"Magical");
-        System.out.println("Boss"+ " " + boss.getHealth() + " " + boss.getDamage() + " " + boss.getDefenceType());
+        System.out.println("Boss"+ " Health:" + boss.getHealth()+ ";" + " Damage:" + boss.getDamage()+ ";"
+                + " DefenceType:" + boss.getDefenceType() + ";");
     }
 }
