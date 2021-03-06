@@ -10,13 +10,10 @@ public class Hero {
         this.damage = damage;
         this.superpower = superpower;
     }
-
     public Hero(int health, int damage){
         this.health = health;
         this.damage = damage;
     }
-
-
     public int getHealth() {
         return health;
     }

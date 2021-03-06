@@ -8,13 +8,6 @@ public class Boss {
     public Boss() {
     }
 
-    public Boss(int health, int damage, String defenceType) {
-        this.health = health;
-        this.damage = damage;
-        this.defenceType = defenceType;
-
-    }
-
     public int getHealth() {
         return health;
     }
